@@ -1,0 +1,14 @@
+network:
+    version: 2
+    wifis:
+        wlan0:
+        optional: false
+        dhcp4: false
+        dhcp6: false
+        addresses: [172.28.66.20/24]
+        gateway4: 172.28.66.1
+        nameservers:
+          addresses: [8.8.8.8]
+        access-points:
+            "elecom-b78a8b":
+                password: "x4ctjrah3vi3"
