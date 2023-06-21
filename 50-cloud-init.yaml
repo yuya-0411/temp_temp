@@ -9,7 +9,7 @@ network:
         dhcp4: false
         dhcp6: true
         addresses:
-          - 172.28.66.20/24
+          - 172.28.66.20/22
         optional: true
         access-points:
           "elecom-b78a8b":
